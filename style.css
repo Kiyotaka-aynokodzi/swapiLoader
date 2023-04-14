@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.zxc {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+
+.films {
+    color: aliceblue;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid #fffffd;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 8px 9px 0px -3px #ffffff;
+    position: absolute;
+    left: 950px;
+    top:100px;
+}
