@@ -39,7 +39,7 @@ const responseApi = async () => {
     try {
         const filmsUrl = await fetch("https://swapi.dev/api/films")
         const jsonUrl = await filmsUrl.json()
-        inPrint = jsonUrl.results.map(films => postApi(films))
+        pudge = jsonUrl.results.map(films => postApi(films))
     } catch (error) {
         errorapi()
     } finally {
